@@ -1,0 +1,4 @@
+import tensorflow as tf
+from tensorflow import keras
+from keras.datasets import mnist
+(X_train,Y_train),(X_test,Y_test) = mnist.load_data()
